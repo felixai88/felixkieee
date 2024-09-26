@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMBAYARAN REFUND R4</title>
+    <style>
+        body {
+            background-color: #f5f6fa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #form-container {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #e1e4e8;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        #form-container h2 {
+            text-align: center;
+            color: #1e90ff;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333333;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="tel"],
+        input[type="number"],
+        select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #495057;
+            text-transform: uppercase; /* Konversi input menjadi huruf kapital */
+        }
+
+        input[type="submit"] {
+            background-color: #1e90ff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0d6efd;
+        }
+
+        #footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form-container">
+        <h2>PEMBAYARAN REFUND R4</h2>
+        <form action="https://script.google.com/macros/s/AKfycbwQy1E6RNCRNU8RCPXFSO-IEsERIfPYIw_TMXksHoMXeU2-6CiJL2i8BrToIT8NgvEX/exec" method="post" onsubmit="convertToUpper(event)">
+
+            <label for="nama">Nama Debitur:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+
+
+
+
+                
+            <label for="namasales">Cari Nama atau Norek Sales:</label>
+            <select id="namasales" name="namasales"required>
+
+
+
+<option value="0222524553,TRULI RIDHOYA LUBIS,0222524553">TRULI RIDHOYA LUBIS(0222524553)</option>
+<option value="004137397302,MAYA ANGGRAINI,004137397302">MAYA ANGGRAINI(004137397302)</option>
+<option value="069601007330532,DENI CRISTOP TIGOR NAINGGOLAN,069601007330532">DENI CRISTOP TIGOR NAINGGOLAN(069601007330532)</option>
+<option value="1332397354,RISKI RAHMADANI,1332397354">RISKI RAHMADANI(1332397354)</option>
+<option value="062001047533501,MEY HENDRI,062001047533501">MEY HENDRI(062001047533501)</option>
+<option value="0342945536,RAHMAT,0342945536">RAHMAT(0342945536)</option>
+<option value="0343027271,DIPPO SUSANTO,0343027271">DIPPO SUSANTO(0343027271)</option>
+<option value="1080024874464,HARI YANTO,1080024874464">HARI YANTO(1080024874464)</option>
+<option value="003669472155,JOSUA PASARIBU,003669472155">JOSUA PASARIBU(003669472155)</option>
+<option value="1080027525188,RIKI WILI DOZAN,1080027525188">RIKI WILI DOZAN(1080027525188)</option>
+<option value="1070017812738,REZA SEPTIAN PRATAMA,1070017812738">REZA SEPTIAN PRATAMA(1070017812738)</option>
+<option value="009814567548,RABBAYANA SYAHIRA,009814567548">RABBAYANA SYAHIRA(009814567548)</option>
+<option value="1720005396413,JELITA AYU ANDIRA,1720005396413">JELITA AYU ANDIRA(1720005396413)</option>
+<option value="3644606935,ADNAN HADRAMI,3644606935">ADNAN HADRAMI(3644606935)</option>
+<option value="003609510676,LYTA THERESYA SIRAIT,003609510676">LYTA THERESYA SIRAIT(003609510676)</option>
+<option value="4114257929,AHMAD SYAHBANA KURNIAWAN,4114257929">AHMAD SYAHBANA KURNIAWAN(4114257929)</option>
+<option value="003651760831,AGUNG KUMORO,003651760831">AGUNG KUMORO(003651760831)</option>
+<option value="4125319489,IPAN NOPEN FERENGKI SIBASTIAN SIMANJUNTA,4125319489">IPAN NOPEN FERENGKI SIBASTIAN SIMANJUNTA(4125319489)</option>
+<option value="7200920672,RAHMAT REIZKY,7200920672">RAHMAT REIZKY(7200920672)</option>
+<option value="540701026873539,TRI ANGGI PUTRI,540701026873539">TRI ANGGI PUTRI(540701026873539)</option>
+<option value="1080024874464,HARI YANTO,1080024874464">HARI YANTO(1080024874464)</option>
+<option value="3634762482,NOVITA SARI,3634762482">NOVITA SARI(3634762482)</option>
+<option value="036701099862504,TRIMULIANTO ARITONANG,036701099862504">TRIMULIANTO ARITONANG(036701099862504)</option>
+<option value="8215324806,TRI WAHYUDI,">TRI WAHYUDI(8215324806)</option>
+<option value="3567651058,DEDE CHIRISTIAN BARU,3567651058">DEDE CHIRISTIAN BARU(3567651058)</option>
+<option value="1060014485851,PUTRA PRATAMA JAYA,1060014485851">PUTRA PRATAMA JAYA(1060014485851)</option>
+<option value="003625104025,RIO PRAYUDA,003625104025">RIO PRAYUDA(003625104025)</option>
+<option value="4114392966,AGUS PRIYANTO,4114392966">AGUS PRIYANTO(4114392966)</option>
+<option value="1720004966083,IRFAN ARIA,1720004966083">IRFAN ARIA(1720004966083)</option>
+<option value="003572005373,CANDRA SINAGA,003572005373">CANDRA SINAGA(003572005373)</option>
+<option value="4110308634,DANIEL ANGGIAT S SILABAN,4110308634">DANIEL ANGGIAT S SILABAN(4110308634)</option>
+<option value="4114257929,AHMAD SYAHBANA KURNIAWAN,4114257929">AHMAD SYAHBANA KURNIAWAN(4114257929)</option>
+<option value="8135178906,AGUS PRIYANTO,8135178906">AGUS PRIYANTO(8135178906)</option>
+<option value="4114253575,MUHAMMAD RUSDI,4114253575">MUHAMMAD RUSDI(4114253575)</option>
+<option value="4147019942,AHMAD FAUZI RISKI TARIGAN,4147019942">AHMAD FAUZI RISKI TARIGAN(4147019942)</option>
+<option value="1720000800419,RIO VEBRINO,1720000800419">RIO VEBRINO(1720000800419)</option>
+<option value="003654023385,SRI WAHYUNI,003654023385">SRI WAHYUNI(003654023385)</option>
+<option value="1339278283,DERIZA FITRI AFRILITA,1339278283">DERIZA FITRI AFRILITA(1339278283)</option>
+                <option value="0590577201,FIRMANSYAH,0590577201">FIRMANSYAH (0590577201)</option>
+                <option value="003634546430,REZA RUSNAIDI,003634546430">REZA RUSNAIDI (003634546430)</option>
+                <option value="003639949142,JESSICA,003639949142">JESSICA (003639949142)</option>
+                <option value="003668790375,YULI AGUSTINA,003668790375">YULI AGUSTINA (003668790375)</option>
+                <option value="003678586920,RIDHO SAGUH PAMBUDI,003678586920">RIDHO SAGUH PAMBUDI (003678586920)</option>
+                <option value="009998148372,PEDI FAMILA,009998148372">PEDI FAMILA (009998148372)</option>
+                <option value="0343514945,NURYADI,0343514945">NURYADI (0343514945)</option>
+                <option value="100015825,LABUHAN RIVAI SEMBIR,100015825">LABUHAN RIVAI SEMBIR (100015825)</option>
+                <option value="1080018121823,SYAHRUL,1080018121823">SYAHRUL (1080018121823)</option>
+                <option value="1080021763165,ABDUL MUHAMMAD FATTA,1080021763165">ABDUL MUHAMMAD FATTA (1080021763165)</option>
+                <option value="1080022741673,ADE SIYATA,1080022741673">ADE SIYATA (1080022741673)</option>
+                <option value="1080022746920,RESI ADRIANI,1080022746920">RESI ADRIANI (1080022746920)</option>
+                <option value="1180785834,BPK DODI ARDIYANTO,1180785834">BPK DODI ARDIYANTO (1180785834)</option>
+                <option value="1720000657348,RAESA SHINTA,1720000657348">RAESA SHINTA (1720000657348)</option>
+                <option value="336801038133535,JELITA AYU ANDIRA,336801038133535">JELITA AYU ANDIRA (336801038133535)</option>
+                <option value="336801047473532,ROY LEONARD SIBARANI,336801047473532">ROY LEONARD SIBARANI (336801047473532)</option>
+                <option value="3567651058,DEDE CHIRISTIAN BARU,3567651058">DEDE CHIRISTIAN BARU (3567651058)</option>
+                <option value="3594249736,TRIADI PUTRA,3594249736">TRIADI PUTRA (3594249736)</option>
+                <option value="3601350147,HERMAWAN,3601350147">HERMAWAN (3601350147)</option>
+                <option value="3831412354,ILHAM HALIK BANGUN,3831412354">ILHAM HALIK BANGUN (3831412354)</option>
+                <option value="4001277397,LISTIANA,4001277397">LISTIANA (4001277397)</option>
+                <option value="4001277427,ULVA MAILANI,4001277427">ULVA MAILANI (4001277427)</option>
+                <option value="4114255896,MEINAR CITRA,4114255896">MEINAR CITRA (4114255896)</option>
+                <option value="4114389620,VERRI ZALDI,4114389620">VERRI ZALDI (4114389620)</option>
+                <option value="4114392966,AGUS PRIYANTO,4114392966">AGUS PRIYANTO (4114392966)</option>
+                <option value="4122524219,ASTRI FEBRI HARTANTI,4122524219">ASTRI FEBRI HARTANTI (4122524219)</option>
+                <option value="4135736363,TOMMY OKTA PRANATA,4135736363">TOMMY OKTA PRANATA (4135736363)</option>
+                <option value="4136574332,NOVRIARI,4136574332">NOVRIARI (4136574332)</option>
+                <option value="4139887420,TERTA SAPUTRA,4139887420">TERTA SAPUTRA (4139887420)</option>
+                <option value="4140871465,RAJA RIANZULMAN,4140871465">RAJA RIANZULMAN (4140871465)</option>
+                <option value="4169921852,DIKI AFZIL SAPUTRA,4169921852">DIKI AFZIL SAPUTRA (4169921852)</option>
+                <option value="533001023445534,DARMA WATI MENDROFA,533001023445534">DARMA WATI MENDROFA (533001023445534)</option>
+                <option value="540601042916531,ALWI FAHREZA,540601042916531">ALWI FAHREZA (540601042916531)</option>
+                <option value="551201021348530,APRIYANTO,551201021348530">APRIYANTO (551201021348530)</option>
+                <option value="701001016179536,ILYAS TRIANDA,701001016179536">ILYAS TRIANDA (701001016179536)</option>
+                <option value="701001035990537,LEO EFENDI,701001035990537">LEO EFENDI (701001035990537)</option>
+                <option value="7154569914,ISWAN SUSWANTO,7154569914">ISWAN SUSWANTO (7154569914)</option>
+                <option value="760199503400,KARDIUS,760199503400">KARDIUS (760199503400)</option>
+                <option value="76686385,HUSNUL KHOTIMAH,76686385">HUSNUL KHOTIMAH (76686385)</option>
+                <option value="8087008856,BAMBANG ASMANTO,8087008856">BAMBANG ASMANTO (8087008856)</option>
+                <option value="8135160179,EKO SAPUTRA,8135160179">EKO SAPUTRA (8135160179)</option>
+                <option value="8200972598,DANIEL HARIANJA,8200972598">DANIEL HARIANJA (8200972598)</option>
+                <option value="8215115646,SUPOMO,8215115646">SUPOMO (8215115646)</option>
+                <option value="8215247704,M ISMATULLAH,8215247704">M ISMATULLAH (8215247704)</option>
+                <option value="8280183921,REZA SYAHPUTRA NST,8280183921">REZA SYAHPUTRA NST (8280183921)</option>
+                <option value="8300084550,YUDHI ENAWAN PRASETYO,8300084550">YUDHI ENAWAN PRASETYO (8300084550)</option>
+                <option value="8455043880,BUDI HARTONO,8455043880">BUDI HARTONO (8455043880)</option>
+                <option value="8455786777,ROMI PUTRA,8455786777">ROMI PUTRA (8455786777)</option>
+		 <option value="032301081832509,MHD IRHAM LUBIS,032301081832509">MHD IRHAM LUBIS (032301081832509)</option>
+		<option value="4114251203,COKI UMAR DANI BUTAR BUTAR,4114251203">COKI UMAR DANI BUTAR BUTAR (4114251203)</option>
+		<option value="0343514945,NURYADI,0343514945">NURYADI (0343514945)</option>
+		<option value="061901004775537,NUR ARDIANSAH,061901004775537">NUR ARDIANSAH(061901004775537)</option>
+		<option value="3607259151,PURNA IRAWAN,3607259151">PURNA IRAWAN(3607259151)</option>
+		<option value="9998080611,IQBAL DWITAMA PUTRA,9998080611">IQBAL DWITAMA PUTRA(9998080611)</option>
+		<option value="003649897232,BELLA SALSABILA,003649897232">BELLA SALSABILA(003649897232)</option>
+		<option value="3644989836,HERRY RHAVENDRA,3644989836">HERRY RHAVENDRA(3644989836)</option>
+		<option value="004119503936,SAHRIAL,004119503936">SAHRIAL(004119503936)</option>
+		<option value="1750915503,PUTRI PRASTIKA,1750915503">PUTRI PRASTIKA(1750915503)</option>
+		<option value="1050017327507,MUHAMMAD ARIF,1050017327507">MUHAMMAD ARIF(11050017327507)</option>
+		<option value="1080025752776,PURWANTO,1080025752776">PURWANTO(1080025752776)</option>
+		<option value="4104470039,USRIADI,4104470039">USRIADI(4104470039)</option>
+		<option value="4114253575,MUHAMMAD RUSDI,4114253575">MUHAMMAD RUSDI(4114253575)</option>
+		<option value="0842931420,SDR RIPALDO SITIO,0842931420">SDR RIPALDO(0842931420)</option>
+		<option value="3627374956,ZASRI YUDHA ABDI ZAS,3627374956">ZASRI YUDHA ABDI ZAS(3627374956)</option>
+<option value="3589604986,BERNATAL SITOHANG,3589604986">BERNATAL SITOHANG(3589604986)</option>
+<option value="8430344910,MIRA MAHARANI,8430344910">MIRA MAHARANI(8430344910)</option>
+<option value="8215231468,AHMAD YUSUF,8215231468">AHMAD YUSUF(8215231468)</option>
+<option value="4124931210,RINI IDHARMAWANTY,4124931210">RINI IDHARMAWANTY(4124931210)</option>
+<option value="8085137260,GUSTI FRANOLO,8085137260">GUSTI FRANOLO(8085137260)</option>
+<option value="0342628590,NOVRI DWI AZMI,0342628590">NOVRI DWI AZMI(0342628590)</option>
+            </select>
+            </select>
+
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const selectElement = document.getElementById('namasales');
+                const options = selectElement.getElementsByTagName('option');
+                const filterInput = document.getElementById('filterInput');
+            
+                filterInput.addEventListener('input', function() {
+                    const filterText = filterInput.value.trim().toLowerCase();
+            
+                    Array.from(options).forEach(option => {
+                        const optionValue = option.getAttribute('value').toLowerCase();
+                        const optionText = option.textContent.toLowerCase();
+                        
+                        if (optionValue.includes(filterText) || optionText.includes(filterText)) {
+                            option.style.display = '';
+                        } else {
+                            option.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            </script>
+            
+
+            
+
+
+
+
+
+            <label for="bank">Nama Bank Sales:</label>
+<select id="bank" name="bank" required>
+    <option value="">Pilih Bank...</option>
+    <option value="002,0307,BANK RAKYAT INDONESIA">BRI</option>
+    <option value="008,0017,BANK MANDIRI">MANDIRI</option>
+    <option value="009,0010,BANK NEGARA INDONESIA 1946">BNI</option>
+    <option value="011,0042,BANK DANAMON INDONESIA">DANAMON</option>
+    <option value="013,0475,BANK PERMATA">PERMATA</option>
+    <option value="014,0012,BANK CENTRAL ASIA">BCA</option>
+    <option value="016,0131,MAYBANK">MAYBANK</option>
+    <option value="022,0026,BANK CIMB NIAGA">CIMB</option>
+    <option value="117,0010,BANK SUMUT">SUMUT</option>
+    <option value="119,0016,BANK RIAU">RIAU</option>
+    <option value="153,0016,BANK SINARMAS">SINARMAS</option>
+    <option value="200,0150,BANK TABUNGAN NEGARA">BTN</option>
+    <option value="451,0017,BANK SYARIAH INDONESIA">BSI</option>
+    <option value="019,0017,PANIN BANK">PANIN</option>
+</select>
+
+<script>
+    // Get the select element
+    var select = document.getElementById('bank');
+
+    // Convert options to array and sort in descending order by bank name
+    var options = Array.from(select.options);
+    options.sort(function(a, b) {
+        var bankNameA = a.text.toUpperCase();
+        var bankNameB = b.text.toUpperCase();
+        if (bankNameA < bankNameB) return 1; // sort descending
+        if (bankNameA > bankNameB) return -1;
+        return 0;
+    });
+
+    // Clear existing options
+    select.innerHTML = '';
+
+    // Add sorted options back to select element
+    options.forEach(function(option) {
+        select.appendChild(option);
+    });
+</script>
+
+            
+            <label for="cabang">Cabang:</label>
+<select id="cabang" name="cabang" required>
+  <option value="">Pilih Cabang...</option>
+  <option value="PBR">PBR</option>
+  <option value="DMI">DMI</option>
+  <option value="DRI">DRI</option>
+  <option value="UBT">UBT</option>
+  <option value="BBT">BBT</option>
+  <option value="NR">NR</option>
+  <option value="AMK">AMK</option>
+  <option value="TLK">TLK</option>
+  <option value="KDS">KDS</option>
+</select>
+
+            <label for="tangalin">Tanggal Input:</label>
+            <input type="date" id="tangalin" name="tangalin" required>
+
+            <label for="no_hp">Nominal Transfer Sales:</label>
+            <input type="text" id="no_hp" name="no_hp" required oninput="formatCurrency(this)">
+
+            <label for="kets">Keterangan:</label>
+            <select id="kets" name="kets" required>
+                <option value="">Pilih keterangan...</option>
+                <option value="SALES">Sales</option>
+                <!--option value="SPV">SPV (Supervisor)</option>
+                <option value="KACAB">Kacab (Kepala Cabang)</option-->
+            </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <label for="namaspv">Nama SPV:</label>
+            <select id="namaspv" name="namaspv" required>
+<option value="1080014260161,RISMAN SIMANJUNTAK,1080014260161">RISMAN SIMANJUNTAK(1080014260161)</option>
+<option value="1720001140310,JANWARDI TANJUNG,1720001140310">JANWARDI TANJUNG(1720001140310)</option>
+<option value="4119495437,RACHMAN ILLYASSA,4119495437">RACHMAN ILLYASSA(4119495437)</option>
+<option value="1080014260161,RISMAN SIMANJUNTAK,1080014260161">RISMAN SIMANJUNTAK(1080014260161)</option>
+<option value="4107653460,RAHMAT AKBAR AMD,4107653460">RAHMAT AKBAR AMD(4107653460)</option>
+<option value="50015847167,FRANSSAULUS P.SIANTURI,50015847167">FRANSSAULUS P.SIANTURI(50015847167)</option>
+                <option value="4001277346,SUYONO,4001277346">SUYONO (4001277346)</option>
+                <option value="003570633895,M.IRFAN,003570633895">M.IRFAN (003570633895)</option>
+                <option value="003570633895,MUHAMMAD IRFAN,003570633895">MUHAMMAD IRFAN (003570633895)</option>
+                <option value="1080003256204,SLAMET RYADI,1080003256204">SLAMET RYADI (1080003256204)</option>
+                <option value="1080006114954,DWIRAMA YANTO,1080006114954">DWIRAMA YANTO (1080006114954)</option>
+                <option value="1080016468333,SUYONO,1080016468333">SUYONO (1080016468333)</option>
+                <option value="1720001850637,WINARSIH,1720001850637">WINARSIH (1720001850637)</option>
+                <option value="4001277281,SAANCE PAULINA,4001277281">SAANCE PAULINA (4001277281)</option>
+                <option value="4001348421,TONISON,4001348421">TONISON (4001348421)</option>
+                <option value="4001840148,RENDI DWI SATRIA,4001840148">RENDI DWI SATRIA (4001840148)</option>
+                <option value="4102055433,ANTON MIGRA ANDESBAR,4102055433">ANTON MIGRA ANDESBAR (4102055433)</option>
+                <option value="4106546210,MUHAMMAD TAUFIK TURNIP,4106546210">MUHAMMAD TAUFIK TURNIP (4106546210)</option>
+                <option value="4107653460,RAHMAT AKBAR AMD,4107653460">RAHMAT AKBAR AMD (4107653460)</option>
+                <option value="4108745741,AGUSTIAN,4108745741">AGUSTIAN (4108745741)</option>
+                <option value="4111457161,BUDI MASMARDIANTO,4111457161">BUDI MASMARDIANTO (4111457161)</option>
+                <option value="62810395,JANWARDI,62810395">JANWARDI (62810395)</option>
+                <option value="7865065701,DEDI ARISYAH PUTRA,7865065701">DEDI ARISYAH PUTRA (7865065701)</option>
+                <option value="8010770050,DAVID,8010770050">DAVID (8010770050)</option>
+                <option value="8135037601,AMRIN PURBA,8135037601">AMRIN PURBA (8135037601)</option>
+                <option value="8250087757,AAN ANDRI SETIAWAN,8250087757">AAN ANDRI SETIAWAN (8250087757)</option>
+                <option value="8280070166,DAVID,8280070166">DAVID (8280070166)</option>
+                <option value="8455005635,WITRA WATI,8455005635">WITRA WATI (8455005635)</option>
+                <option value="96691621,AINAN SUSANTO,96691621">AINAN SUSANTO (96691621)</option>
+                <option value="9811458802,WANDY WIJAYA,9811458802">WANDY WIJAYA (9811458802)</option>
+                <option value="9811695170,NOFRIADI,9811695170">NOFRIADI (9811695170)</option>
+<option value="3491378563,YERUBEL TARIGAN,3491378563">YERUBEL TARIGAN (3491378563)</option>
+<option value="8010902496,AZIDDIN,8010902496">AZIDDIN (8010902496)</option>
+<option value="0221528254,PUTRA ARRAZA,0221528254">PUTRA ARRAZA(0221528254)</option>
+<option value="8010904464,ANTO FERNANDO SINAGA,8010904464">ANTO FERNANDO SINAGA(8010904464)</option>
+<option value="1440463815,TONI SON S KOM,1440463815">TONI SON S KOM(1440463815)</option>
+<option value="3627374956,ZASRI YUDHA ABDI ZAS,3627374956">ZASRI YUDHA ABDI ZAS(3627374956)</option>
+<option value="4001645760,YUSUF HAMDAN,4001645760">YUSUF HAMDAN(4001645760)</option>
+<option value="4104627914,STEVANUS DONNY R,4104627914">STEVANUS DONNY R(4104627914)</option>
+<option value="4106451988,KRISTIAN S,4106451988">KRISTIAN S(4106451988)</option>
+<option value="~">-(0)</option>
+            </select>
+            
+            <script>
+                // Get the select element
+                var select = document.getElementById('namaspv');
+            
+                // Convert options to array and sort in descending order by name
+                var options = Array.from(select.options);
+                options.sort(function(a, b) {
+                    var nameA = a.text.toUpperCase();
+                    var nameB = b.text.toUpperCase();
+                    if (nameA < nameB) return 1; // sort descending
+                    if (nameA > nameB) return -1;
+                    return 0;
+                });
+            
+                // Clear existing options
+                select.innerHTML = '';
+            
+                // Add sorted options back to select element
+                options.forEach(function(option) {
+                    select.appendChild(option);
+                });
+            </script>
+            
+            
+            <label for="bankspv">Nama Bank SPV:</label>
+            <select id="bankspv" name="bankspv" required>
+                <option value="">Pilih Bank...</option>
+                <option value="002,0307,BANK RAKYAT INDONESIA">BRI</option>
+                <option value="008,0017,BANK MANDIRI">MANDIRI</option>
+                <option value="009,0010,BANK NEGARA INDONESIA 1946">BNI</option>
+                <option value="011,0042,BANK DANAMON INDONESIA">DANAMON</option>
+                <option value="013,0475,BANK PERMATA">PERMATA</option>
+                <option value="014,0012,BANK CENTRAL ASIA">BCA</option>
+                <option value="016,0131,MAYBANK">MAYBANK</option>
+                <option value="022,0026,BANK CIMB NIAGA">CIMB</option>
+                <option value="117,0010,BANK SUMUT">SUMUT</option>
+                <option value="119,0016,BANK RIAU">RIAU</option>
+                <option value="153,0016,BANK SINARMAS">SINARMAS</option>
+                <option value="200,0150,BANK TABUNGAN NEGARA">BTN</option>
+                <option value="451,0017,BANK SYARIAH INDONESIA">BSI</option>
+                <option value="019,0017,PANIN BANK">PANIN</option>
+            </select>
+            <label for="nominalspv">Nominal Transfer SPV:</label>
+            <input type="text" id="nominalspv" name="nominalspv" required oninput="formatCurrency(this)">
+            <label for="ketp">Keterangan:</label>
+            <select id="ketp" name="ketp" required>
+                <option value="">Pilih keterangan...</option>
+                <!--option value="SALES">Sales</option-->
+                <option value="SPV">SPV (Supervisor)</option>
+                <!--option value="KACAB">Kacab (Kepala Cabang)</option-->
+            </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label for="namakacab">Pilih Nama Kacab:</label>
+<select id="namakacab" name="namakacab"required>
+    <option value="">Pilih Nama Kacab</option>
+    <option value="4106546458,ZAINAL WISATA,4106546458">ZAINAL WISATA (4106546458)</option>
+    <option value="000009856816,SYAFARUDIN,000009856816">SYAFARUDIN (000009856816)</option>
+    <option value="000030286389,JIMMY EDUARD IR,000030286389">JIMMY EDUARD IR (000030286389)</option>
+    <option value="0340940326,RYAN PUTRA YAP,0340940326">RYAN PUTRA YAP (0340940326)</option>
+    <option value="30197289,ANDRE ASMARA HUTAPEA,30197289">ANDRE ASMARA HUTAPEA (30197289)</option>
+    <option value="5211074882,SITI,5211074882">SITI (5211074882)</option>
+<option value="1080005380671,MUHAMAD YUSUF,1080005380671">MUHAMAD YUSUF (1080005380671)</option>
+<option value="8010918171,SAHAT P. H. NAINGGOLAN,8010918171">SAHAT P. H. NAINGGOLAN(8010918171)</option>
+<option value="~">-(0)</option>
+</select>
+
+
+
+
+            <label for="bankkacab">Nama Bank Kacab:</label>
+<select id="bankkacab" name="bankkacab" required>
+    <option value="">Pilih Bank...</option>
+    <option value="002,0307,BANK RAKYAT INDONESIA">BRI</option>
+    <option value="008,0017,BANK MANDIRI">MANDIRI</option>
+    <option value="009,0010,BANK NEGARA INDONESIA 1946">BNI</option>
+    <option value="011,0042,BANK DANAMON INDONESIA">DANAMON</option>
+    <option value="013,0475,BANK PERMATA">PERMATA</option>
+    <option value="014,0012,BANK CENTRAL ASIA">BCA</option>
+    <option value="016,0131,MAYBANK">MAYBANK</option>
+    <option value="022,0026,BANK CIMB NIAGA">CIMB</option>
+    <option value="117,0010,BANK SUMUT">SUMUT</option>
+    <option value="119,0016,BANK RIAU">RIAU</option>
+    <option value="153,0016,BANK SINARMAS">SINARMAS</option>
+    <option value="200,0150,BANK TABUNGAN NEGARA">BTN</option>
+    <option value="451,0017,BANK SYARIAH INDONESIA">BSI</option>
+    <option value="019,0017,PANIN BANK">PANIN</option>
+</select>
+
+
+
+            <label for="nominalkacab">Nominal Transfer Kacab:</label>
+            <input type="text" id="nominalkacab" name="nominalkacab" required oninput="formatCurrency(this)">
+
+            <label for="ketb">Keterangan:</label>
+            <select id="ketb" name="ketb" required>
+                <option value="">Pilih keterangan...</option>
+                <!--option value="SALES">Sales</option>
+                <option value="SPV">SPV (Supervisor)</option-->
+                <option value="KACAB">Kacab (Kepala Cabang)</option>
+            </select>
+
+            <input type="submit" value="Simpan Data">
+        </form>
+    </div>
+
+    <div id="footer">
+        SALAM HANGAT DARI PT CAPELLA MULTIDANA
+    </div>
+
+    <script>
+        // Function to format currency input
+        function formatCurrency(input) {
+            var num = input.value.replace(/\D/g, ''); // Remove non-numeric characters
+            var formattedNum = new Intl.NumberFormat('id-ID').format(num); // Format with dot as thousand separator
+            input.value = formattedNum;
+        }
+
+        // Function to convert input values to uppercase before submitting
+        function convertToUpper(event) {
+            var inputs = document.getElementsByTagName('input');
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type === 'text' || inputs[i].type === 'date') {
+                    inputs[i].value = inputs[i].value.toUpperCase();
+                }
+            }
+
+            var selects = document.getElementsByTagName('select');
+            for (var j = 0; j < selects.length; j++) {
+                selects[j].value = selects[j].value.toUpperCase();
+            }
+        }
+    </script>
+</body>
+
+</html>
